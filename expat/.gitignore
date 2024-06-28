@@ -17,7 +17,6 @@ config.cache
 config.log
 config.status
 expat_config.h.in
-expat_config.h
 libtool
 expat.ncb
 expat.opt
