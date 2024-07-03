@@ -28,5 +28,8 @@ pub fn build(b: *std.Build) void {
     }
   });
 
+  expat.installHeader(b.path("expat/lib/expat.h"), "expat.h");
+  expat.installHeader(b.path("expat/lib/expat_external.h"), "expat_external.h");
+
   b.installArtifact(expat);
 }
